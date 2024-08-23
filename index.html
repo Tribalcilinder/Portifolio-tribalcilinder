@@ -1,20 +1,37 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<link rel="stylesheet" href="https://github.com/Tribalcilinder/Portifolio-tribalcilinder/blob/main/CSS/Index.css">
-		<meta charset="UTF-8" />
-		<title>Douglas Sena</title>
-	</head>
-	<body>
-		<nav class="menu">
-		<ul>
-			<li><a href="contato.html" >Contato</a></li>
-			<li><a href="portifolio.html">Portifolio</a></li>
-		</ul>
-		</nav>
-		<br><br>
-		<div class="perfil">
-		<img src="img/mario.jpeg">
-		</div>
-	</body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <link rel="stylesheet" href="https://github.com/Tribalcilinder/Portifolio-tribalcilinder/blob/main/CSS/Index.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Minha Página Pessoal</h1>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou Douglas. Este é um breve resumo sobre mim.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contatoForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Douglas S. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
